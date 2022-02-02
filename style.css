@@ -1,0 +1,64 @@
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.wrapper {
+    background-color: gray;
+    border-radius: 20px;
+    padding: 25px;
+    width: 600px;
+    height: 700px;
+    text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    color: white;
+    margin: 50px auto;
+    width: max-content;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: black;
+    color: white;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game {
+    font-size: 50px;
+    color: red;
+    margin: 20px auto;
+}
+
+.clear-game {
+    background-color: gray;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+}
