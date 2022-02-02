@@ -1,2 +1,2 @@
 # tictactoe
-This is easy and beautiful game in the world *hehe*
+This is easy and cool game in the world *hehe*
