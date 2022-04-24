@@ -1,6 +1,8 @@
 body {
-    font-family: "Comic Sans MS", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin: 0;
+    background-image: url(./img/4853433.jpg);
+    background-position: center;
 }
 section {
     display: flex;
@@ -10,23 +12,24 @@ section {
     margin-top: 80px;
 }
 .wrapper {
-    background-color: gray;
+    background-color: #f0f0f0;
     border-radius: 20px;
     padding: 25px;
     width: 600px;
     height: 700px;
     text-align: center;
+    border: 1px solid #0000002b;
 }
 .title {
     font-size: 48px;
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 50px auto;
     width: max-content;
 }
 .container {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    width: 306px;
+    width: 310px;
     margin: 10px auto;
     background-color: black;
     color: white;
@@ -41,19 +44,25 @@ section {
     font-size: 60px;
 }
 .game {
-    font-size: 50px;
+    font-size: 40px;
     color: red;
     margin: 20px auto;
 }
 .clear-game {
-    background-color: gray;
+    background-color: rgba(201, 201, 201, 0.651);
     width: 200px;
     height: 50px;
     font-size: 25px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     border: 2px solid black;
     border-radius: 20px;
+    cursor: pointer;
+}
+.clear-game:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    transition: 0.2s;
 }
 @media (max-width: 768px) {
     section {
@@ -71,5 +80,9 @@ section {
     }
     .game {
         font-size: 25px;
+    }
+    .wrapper {
+        background:none;
+        border: none;
     }
 }
